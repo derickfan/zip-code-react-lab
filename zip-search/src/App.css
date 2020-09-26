@@ -2,5 +2,30 @@
   background-color: #222;
   padding: 20px;
   color: white;
+  width: 100vw;
   text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.city {
+  margin-top: 20px;
+  border: 1px solid  rgba(100, 100, 100, 0.5);
+  width: 45vw;
+}
+
+.city > h1 {
+  background-color: rgba(100, 100, 100, 0.5);
+  text-transform: capitalize;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.user-input {
+  margin-top: 2em;
 }
